@@ -62,7 +62,7 @@ function App() {
     <div className="card">
       <h2>{props.title}</h2>
       <p>{props.description}</p>
-      <p>Price: ${props.price}</p>
+      <p>Price: {props.price}</p>
       <p>In Stock: {props.inStock ? "Yes ✅" : "No ❌"}</p>
     </div>
   );
